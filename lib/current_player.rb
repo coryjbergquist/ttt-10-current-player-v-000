@@ -13,7 +13,7 @@ end
 
 def current_player(board)
   
-  board.each do
+  player = board.each do
   if 
     turn_count(board) % 2 == 0
 "X"
@@ -24,4 +24,5 @@ else
   "X"
 end
 end
+player
 end
