@@ -16,12 +16,12 @@ def current_player(board)
  board.each do
   if 
     turn_count(board) % 2 == 0
-"X"
+ player = "X"
 elsif 
 turn_count(board) % 2 == 1
-"O"
+player = "O"
 else 
-  "X"
+player =  "X"
 end
 end
 end
