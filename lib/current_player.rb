@@ -24,5 +24,4 @@ else
   "X"
 end
 end
-player
 end
