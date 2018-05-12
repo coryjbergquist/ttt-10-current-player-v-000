@@ -24,4 +24,5 @@ else
 player =  "X"
 end
 end
+player
 end
