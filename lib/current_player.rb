@@ -12,17 +12,13 @@ counter
 end
 
 def current_player(board)
-player = "nothing"  
- board.each do
   if 
     turn_count(board) % 2 == 0
-player = "X"
+"X"
 elsif 
 turn_count(board) % 2 == 1
-player = "O"
+"O"
 else 
-player =  "X"
+"X"
 end
-end
-player
 end
